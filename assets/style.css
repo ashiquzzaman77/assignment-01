@@ -20,8 +20,14 @@ body {
     color: #fff;
     border-radius: 8px;
 }
-.container
-{
+
+.btn-secondary {
+    border: 1px solid rgb(13, 19, 33);
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.container {
     margin: 100px 100px;
 }
 
@@ -52,19 +58,32 @@ body {
 }
 
 /* Development Section  */
-.container-background
-{
-    background-color: rgb(245, 242, 242);
-    height: 500px;
+.development-background {
+    background: rgba(13, 19, 33, 0.02);
+    height: auto;
     border-radius: 16px;
 }
 
-.container-background-content
-{
+.development-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+.development-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.development-body-content h3 {
+    max-width: 400px;
+}
+
+.development-body-content p {
+    max-width: 800px;
+    padding: 30px 0 40px 0;
 }
