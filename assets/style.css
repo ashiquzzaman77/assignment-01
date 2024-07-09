@@ -87,3 +87,66 @@ body {
     max-width: 800px;
     padding: 30px 0 40px 0;
 }
+
+/* Inspiration */
+.inspiration-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.video-tag iframe {
+    width: 100%;
+    height: 550px;
+    border-radius: 7px;
+}
+
+/* Target Section  */
+.target-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 60px;
+    margin: 0px 24px;
+}
+
+.target-body {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.target-body-content-one {
+    border: none;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-body-content-two {
+    border: none;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.target-body-content-three {
+    border: none;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+/* Support  */
+.support-background {
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('images/handshake.jpg');
+    background-size: cover;
+    height: 300px;
+}
