@@ -36,11 +36,11 @@ body {
     margin: 0 100px;
 }
 
-.container-header{
+.container-header {
     margin: 20px 100px;
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
 
 /* Banner Section  */
@@ -92,6 +92,12 @@ body {
     align-items: center;
 }
 
+.development-body-content {
+    background-color: #fff;
+    padding: 30px;
+    width: 700px;
+}
+
 .development-body-content h3 {
     max-width: 400px;
 }
@@ -99,6 +105,7 @@ body {
 .development-body-content p {
     max-width: 800px;
     padding: 30px 0 40px 0;
+    line-height: 25px;
 }
 
 /* Inspiration */
@@ -166,8 +173,8 @@ body {
     padding-bottom: 60px;
     margin: 0px 24px;
 }
-.next-target-body
-{
+
+.next-target-body {
     height: 300px;
     display: flex;
     justify-content: flex-start;
@@ -176,37 +183,36 @@ body {
     gap: 20px;
 }
 
-.next-target-body-content-one
-{
+.next-target-body-content-one {
     border: 1px solid #d4dcec;
     border-radius: 8px;
     padding: 40px;
     width: 100%;
 }
 
-.next-child-section
-{
+.next-child-section {
     display: flex;
     justify-content: baseline;
-    align-items:center ;
+    align-items: center;
     gap: 30px;
 }
 
-.next-child-section img{
+.next-child-section img {
     width: 100px;
     height: 100px;
 }
 
-.next-target-body-content-one a{
-    
+.next-target-body-content-one a {
+
     color: #1d1c1c;
 }
 
 /* Support  */
-#support{
+#support {
     position: relative;
     top: 400px;
 }
+
 .support-background {
     border-radius: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/handshake.jpg');
@@ -249,10 +255,11 @@ body {
 }
 
 /* Footer  */
-#footer{
+#footer {
     position: relative;
     top: 365px;
 }
+
 footer {
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 0px;
