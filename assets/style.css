@@ -14,7 +14,7 @@ body {
 
 .btn-primary {
     border: 1px solid rgb(13, 19, 33);
-    padding: 20px 30px;
+    padding: 15px 30px;
     text-decoration: none;
     background-color: rgb(13, 19, 33);
     color: #fff;
@@ -23,8 +23,9 @@ body {
 
 .btn-secondary {
     border: 1px solid rgb(13, 19, 33);
-    padding: 20px 30px;
+    padding: 15px 25px;
     text-decoration: none;
+    color: #1d1c1c;
 }
 
 .container {
@@ -33,6 +34,13 @@ body {
 
 .container-footer {
     margin: 0 100px;
+}
+
+.container-header{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
 }
 
 /* Banner Section  */
@@ -148,7 +156,57 @@ body {
     padding: 40px;
 }
 
+/* Next Target  */
+
+.next-target-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 60px;
+    margin: 0px 24px;
+}
+.next-target-body
+{
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-target-body-content-one
+{
+    border: 1px solid #d4dcec;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+}
+
+.next-child-section
+{
+    display: flex;
+    justify-content: baseline;
+    align-items:center ;
+    gap: 30px;
+}
+
+.next-child-section img{
+    width: 100px;
+    height: 100px;
+}
+
+.next-target-body-content-one a{
+    
+    color: #1d1c1c;
+}
+
 /* Support  */
+#support{
+    position: relative;
+    top: 400px;
+}
 .support-background {
     border-radius: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/handshake.jpg');
@@ -191,6 +249,10 @@ body {
 }
 
 /* Footer  */
+#footer{
+    position: relative;
+    top: 365px;
+}
 footer {
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 0px;
