@@ -18,7 +18,7 @@ body {
     text-decoration: none;
     background-color: rgb(13, 19, 33);
     color: #fff;
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 .btn-secondary {
@@ -68,6 +68,7 @@ body {
     font-size: 15px;
     text-align: center;
     padding: 30px 0;
+    opacity: 0.7;
 }
 
 /* Development Section  */
@@ -96,6 +97,7 @@ body {
     background-color: #fff;
     padding: 30px;
     width: 700px;
+    border-radius: 8px;
 }
 
 .development-body-content h3 {
@@ -106,6 +108,7 @@ body {
     max-width: 800px;
     padding: 30px 0 40px 0;
     line-height: 25px;
+    opacity: 0.7;
 }
 
 /* Inspiration */
@@ -138,7 +141,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     gap: 20px;
 }
 
@@ -161,6 +163,21 @@ body {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
+}
+
+.target-body-content-one p,
+.target-body-content-two p,
+.target-body-content-three p {
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.target-body-content-one a,
+.target-body-content-two a,
+.target-body-content-three a {
+    color: #1d1c1c;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 /* Next Target  */
@@ -188,6 +205,20 @@ body {
     border-radius: 8px;
     padding: 40px;
     width: 100%;
+}
+
+.next-target-body-content-one h4{
+    font-size: 23px;
+}
+
+.next-target-body-content-one p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.next-target-body-content-one a{
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .next-child-section {
